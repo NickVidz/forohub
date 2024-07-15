@@ -59,13 +59,6 @@ ForoHub es una aplicación web de foro construida con Spring Boot, utilizando JW
     api.security.secret = ${JWT_SECRET:123456}
     ```
 
-3. **Compilar y ejecutar la aplicación**
-
-    ```bash
-    mvn clean install
-    mvn spring-boot:run
-    ```
-
 ## Endpoints de la API
 
 ### Autenticación
