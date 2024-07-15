@@ -43,7 +43,7 @@ ForoHub es una aplicación web de foro construida con Spring Boot, utilizando JW
     CREATE DATABASE forohub2;
     ```
 
-    Asegúrate de actualizar las propiedades de la base de datos en `src/main/resources/application.properties`:
+    Asegúrate de crear las propiedades de la base de datos en `src/main/resources/application.properties`:
 
     ```properties
     spring.datasource.url=jdbc:mysql://localhost:5500/forohub2
